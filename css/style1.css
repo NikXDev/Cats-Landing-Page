@@ -1,0 +1,136 @@
+h1{
+  color: #000000;
+  font-size: 36px;
+}
+
+h2{
+  color: #000000;
+}
+
+p{
+  font-size: 20px;
+}
+
+li{
+  margin-bottom: 8px;
+}̥
+
+ul{
+  background-color: #F7F9FC;
+  margin-top: 25px;
+  padding: 30px 55px;  /*padding-top: 30px;  padding-bottom: 30px;  padding-left: 55px;  padding-right: 55px */
+  border-radius: 8px;
+  }
+
+header{
+  background-color: #F0F8FF;
+  background-image: url("C:/Users/dhani/Atom Projects/Cats Landing Page/img/jumping_cats.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 140px 0 100px;
+}
+
+.first-section{
+  background-color: white;
+}
+
+.section{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.first-section ul{
+  background-color: #F7F9FC;
+  border-radius: 8px;
+  margin-top: 25px;
+  padding: 30px 55px;
+}
+
+.first-section li{
+  margin-bottom: 8px;
+}
+
+body{
+  color: #4a4a4a
+}
+
+.first-section img{
+  margin-bottom: 35px;
+}
+
+.second-section{
+  background-color: #FBFBFB
+}
+
+.nav-item{
+  margin: 10px 16px;
+}
+
+.navbar-brand img{
+  height: 46px;
+  margin-right: 8px;
+  width: 46px;
+}
+
+third-section{
+  background-color: white;
+}
+
+.third-section img{
+  margin-top: 35px;
+}
+
+.fourth-section{
+  background-color: #F0F8FF;
+  background-image: url("C:/Users/dhani/Atom Projects/Cats Landing Page/img/cattern.png");
+  background-repeat: repeat;
+  background-size: 192px 192px;
+}
+
+footer{
+  background-color: white;
+  padding: 35px 0;
+}
+
+.footer-logo{
+  height: 22px;
+  margin-bottom: 3px;
+  width: 22px;
+}
+
+@media (min-width: 768px) {
+  .third-section img {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .first-section img{
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .first-section img{
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  h1{
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 576px) {
+  .section{
+    padding: 100px 0;
+  }
+}
+
+@media (min-width: 576px) {
+  header{
+    padding: 200px 0;
+  }
+}
